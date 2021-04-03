@@ -1,0 +1,14 @@
+package com.example.test
+
+import java.util.*
+
+fun main()
+{
+    var reader = Scanner(System.`in`)
+    println("Enter the radius of circle")
+   val radius=reader.nextDouble()
+    println("The Area of the circle is "+(3.141*(radius*radius)))
+    println("The perimeter of the Circle is "+(2*3.141*radius))
+
+    println("The length of side of square is "+(1.571*radius))
+}
