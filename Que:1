@@ -1,0 +1,12 @@
+package com.example.test
+
+fun main()
+{
+    println("Enter the two numbers")
+    val a=Integer.valueOf(readLine())
+    val b=Integer.valueOf(readLine())
+    println(" sum of a and b is " +(a+b))
+    println(" subtraction of a and b is "+(a-b))
+    println(" multiplication of a and b is " +(a*b))
+    println(" division of a and b is " +(a/b))
+}
